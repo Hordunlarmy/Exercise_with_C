@@ -35,7 +35,8 @@ and JavaScript instead.
 using appropriate string-escaping techniques for quotes.
 - [x] If your language supports string interpolation or string
 substitution, don’t use it for this exercise. Use string
-concatenation instead.
+concatenation instead
+
 **Challenge**
 - [ ] Modify this program so that
 instead of prompting for quotes from the user, you create a structure that holds quotes and their associated
