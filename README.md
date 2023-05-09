@@ -28,3 +28,15 @@ and update the character counter every time a key is
 pressed. If your language doesn’t have a particularly
 friendly GUI library, try doing this exercise with HTML
 and JavaScript instead.
+
+# Printing Quotes
+**Constraints**
+-[x] Use a single output statement to produce this output,
+using appropriate string-escaping techniques for quotes.
+-[x] If your language supports string interpolation or string
+substitution, don’t use it for this exercise. Use string
+concatenation instead.
+**Challenge**
+-[ ] Modify this program so that
+instead of prompting for quotes from the user, you create a structure that holds quotes and their associated
+attributions and then display all of the quotes
