@@ -16,8 +16,7 @@ int main(void)
 	head->next = NULL;
 
 	head->next = malloc(sizeof(quotes));
-	strcpy(head->next->quote, "The way to get started "
-			"is to quit talking and begin doing.");
+	strcpy(head->next->quote, "The way to get started is to quit talking and begin doing.");
 	strcpy(head->next->author, "Walt Disney");
 	head->next->next = NULL;
 
@@ -37,6 +36,6 @@ int main(void)
 	printf("%s says, \"%s\"\n", quote3->author, quote3->quote);
 	printf("%s says, \"%s\"\n", quote4->author, quote4->quote);
 
-	/* Need More Work */
+	/* Needs More Work */
 	return (0);
 }
