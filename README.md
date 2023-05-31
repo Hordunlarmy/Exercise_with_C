@@ -41,3 +41,14 @@ concatenation instead
 - [x] Modify this program so that
 instead of prompting for quotes from the user, you create a structure that holds quotes and their associated
 attributions and then display all of the quotes
+
+# Mad Labs
+**Constraints**
+- [x] Use a single output statement for this program.
+- [x] If your language supports string interpolation or string
+substitution, use it to build up the output.
+
+**Challenges**
+- [x] Add more inputs to the program to expand the story.
+- [ ] Implement a branching story, where the answers to
+questions determine how the story is constructed.
