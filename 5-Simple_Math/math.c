@@ -20,7 +20,13 @@ int main(void)
 	int numOne, numTwo;
 
 	printf("What is the first number: ");
-	scanf("%s", firstNum);
+	scanf("%[^\n]%*c", firstNum);
+
+	if (firstNum[0] == '\0')
+	{
+		printf("Input cannot be empty, enter a number\n");
+		return (-1);
+	}
 
 	numOne = atoi(firstNum);
 	if (numOne < 0 )
@@ -28,13 +34,18 @@ int main(void)
 		printf("Sorry, we dont take negative numbers.\n");
 		return (-1);
 	}
-	
+
 	if (nondigits(firstNum) == -1)
 		return (-1);
 
 	printf("What is the second number: ");
-	scanf("%s", secondNum);
+	scanf("%[^\n]%*c", secondNum);
 
+	if (secondNum[0] == '\0')
+	{
+		printf("Input cannot be empty, enter a number\n");
+		return (-1);
+	}
 
 	numTwo = atoi(secondNum);
 	if (numTwo < 0)
@@ -46,12 +57,10 @@ int main(void)
 	if (nondigits(secondNum) == -1)
 		return (-1);
 
-
 	sum(numOne, numTwo);
 	diff(numOne, numTwo);
 	prod(numOne, numTwo);
 	quo(numOne, numTwo);
-
 
 	return (0);
 }
