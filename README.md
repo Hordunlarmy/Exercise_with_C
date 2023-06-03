@@ -8,7 +8,7 @@ Smashing them exercises with C language
 - [x] Keep the input, string concatenation, and output separate.
 
 **Challenges**
-- [ ] Write a new version of the program without using any
+- [x] Write a new version of the program without using any
 variables.
 - [ ] Write a version of the program that displays different
 greetings for different people.
@@ -64,7 +64,7 @@ conversions and other processing.
 the appropriate spots.
 
 **Challenges**
-- [ ] Revise the program to ensure that inputs are entered as
+- [x] Revise the program to ensure that inputs are entered as
 numeric values. Don’t allow the user to proceed if the
 value entered is not numeric.
 - [x] Don’t allow the user to enter a negative number.
