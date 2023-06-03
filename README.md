@@ -52,3 +52,21 @@ substitution, use it to build up the output.
 - [x] Add more inputs to the program to expand the story.
 - [ ] Implement a branching story, where the answers to
 questions determine how the story is constructed.
+
+# Simple Math
+**Constraints**
+- [x] Values coming from users will be strings. Ensure that
+you convert these values to numbers before doing the
+math.
+- [x] Keep the inputs and outputs separate from the numerical
+conversions and other processing.
+- [x] Generate a single output statement with line breaks in
+the appropriate spots.
+
+**Challenges**
+- [ ] Revise the program to ensure that inputs are entered as
+numeric values. Don’t allow the user to proceed if the
+value entered is not numeric.
+- [x] Don’t allow the user to enter a negative number.
+- [x] Break the program into functions that do the computations.
+- [ ] Implement this program as a GUI program that automatically updates the values when any value changes.
