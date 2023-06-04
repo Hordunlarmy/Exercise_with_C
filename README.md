@@ -70,3 +70,14 @@ value entered is not numeric.
 - [x] Don’t allow the user to enter a negative number.
 - [x] Break the program into functions that do the computations.
 - [ ] Implement this program as a GUI program that automatically updates the values when any value changes.
+
+## Retirement Calculator
+**Constraints**
+- [x] Again, be sure to convert the input to numerical data
+before doing any math.
+- [x] Don’t hard-code the current year into your program.
+Get it from the system time via your programming language.
+
+**Challenge**
+- [x] Handle situations where the program returns a negative
+number by stating that the user can already retire.
