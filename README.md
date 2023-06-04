@@ -71,7 +71,7 @@ value entered is not numeric.
 - [x] Break the program into functions that do the computations.
 - [ ] Implement this program as a GUI program that automatically updates the values when any value changes.
 
-## Retirement Calculator
+# Retirement Calculator
 **Constraints**
 - [x] Again, be sure to convert the input to numerical data
 before doing any math.
